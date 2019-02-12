@@ -1,0 +1,36 @@
+body
+{
+    background: #f5d9d5;
+    font-family: 'Roboto', sans-serif;
+}
+
+#upperNavBar .navbar-brand {
+    color:crimson;
+    font-size: 1.5erm;
+}
+
+#upperNavBar .nav-link
+{
+    color: white;    
+}
+
+#upperNavBar .nav-link:hover
+{
+    color: crimson;    
+}
+
+#HeaderElements h1
+{
+    color: white;
+    font-weight: 300;    
+}
+
+#HeaderElements span
+{
+    color: crimson;
+}
+
+.individual
+{
+    margin-top: 100px;
+}
