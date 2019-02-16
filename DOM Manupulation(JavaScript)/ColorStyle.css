@@ -1,0 +1,97 @@
+body
+{
+    background-color: rgb(22, 22, 22);
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+/* .square:hover
+{
+    border-radius: 15%;
+} */
+
+h1
+{
+    color: white;
+    background: slateblue;
+    margin: 0;
+    padding: 5%;
+    text-align: center;
+    line-height: 1.5em;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+h2
+{
+    color: white;
+    
+}
+
+#correctRGB
+{
+    font-size: 200%;
+}
+
+button
+{
+    color: slateblue;
+    font-size: 150%;
+    text-transform: uppercase;
+    border: none;
+    background: white;
+    height: 100%;
+    font-weight: 600;
+}
+
+button:hover
+{
+    color: white;
+    background: slateblue;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+#container
+{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+#userAnswer
+{
+    display: inline-block;
+    width: 20%;  
+    text-transform: uppercase;
+    font-weight: 800;
+    color: salmon;
+}
+
+#buttonSection
+{
+    background: white;
+    height: 3rem;
+    text-align: center;
+    margin-bottom: 4%;
+   
+}
+
+.square
+{
+    width: 30%;
+    background-color: brown;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 20%;
+    transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+}
+
+.selected
+{
+    background: slateblue;
+    color: white;
+}
+
